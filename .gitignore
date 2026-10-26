@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/__pycache__/
+*/__pycache__/
+*.pyc
+
+# Builds
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Credentials & Sensitive Configs
+backend/firebase_credentials.json
+backend/.env
+.env
+
+# Logs and Temp
+*.log
+.DS_Store
+Thumbs.db

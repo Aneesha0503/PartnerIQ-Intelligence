@@ -1,0 +1,1850 @@
+{
+  "companies": {
+    "comp_stripe": {
+      "id": "comp_stripe",
+      "name": "Stripe",
+      "slug": "stripe",
+      "domain": "stripe.com",
+      "tagline": "Enterprise platform for next-generation FinTech / Payment Infrastructure",
+      "overview": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models and manage money movement.",
+      "industry": "FinTech / Payment Infrastructure",
+      "founding_year": 2016,
+      "founders": "Stripe Executive Leadership Team",
+      "headquarters": "Global Operations",
+      "employee_count": "250+ Employees",
+      "employee_rating": "3.9 / 5.0 (Industry Peer Index)",
+      "funding_stage": "Institutional Growth Stage",
+      "estimated_revenue": "Commercial Enterprise Scale",
+      "profitability_status": "Capitalized & Operationally Solvent",
+      "business_model": "B2B SaaS / Developer Infrastructure",
+      "products": [
+        {
+          "name": "Stripe Enterprise Platform",
+          "description": "Core scalable solutions for FinTech / Payment Infrastructure."
+        },
+        {
+          "name": "Stripe Integration APIs & Connectors",
+          "description": "Programmatic interfaces (RESTful JSON API, Webhooks) for automated data exchange."
+        },
+        {
+          "name": "Stripe Security & Governance Hub",
+          "description": "Enterprise access controls, audit logs, and compliance enforcement."
+        }
+      ],
+      "tech_stack": {
+        "cloud_platforms": [
+          "Multi-Cloud AWS/GCP"
+        ],
+        "api_types": [
+          "RESTful JSON API",
+          "Webhooks"
+        ],
+        "sdks": [
+          "Python",
+          "JavaScript / TypeScript",
+          "Go"
+        ],
+        "architecture": "Event-driven distributed microservices with container orchestration",
+        "security_features": [
+          "SOC 2 Type II",
+          "ISO 27001",
+          "GDPR"
+        ]
+      },
+      "integrations": [
+        "AWS",
+        "Salesforce",
+        "Google Cloud",
+        "Slack",
+        "Microsoft Teams",
+        "GitHub"
+      ],
+      "target_market": "High-growth tech companies and global enterprises",
+      "evidence_sources": [
+        {
+          "id": "ev_3c9a0ead",
+          "source_url": "https://stripe.com/in",
+          "source_title": "Stripe Official Domain & Overview",
+          "category": "primary_source",
+          "snippet": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models and manage money movement.",
+          "confidence": 0.98,
+          "timestamp": "2026-10-26T13:40:17.300526"
+        },
+        {
+          "id": "ev_sec_203e685d",
+          "source_url": "https://docs.stripe.com/security",
+          "source_title": "Stripe Trust & Security Architecture",
+          "category": "compliance",
+          "snippet": "Learn how Stripe protects your data through compliance programmes, product security features, and infrastructure safeguards.",
+          "confidence": 0.99,
+          "timestamp": "2026-10-26T13:40:19.763691"
+        }
+      ],
+      "extraction_confidence": 0.92,
+      "extracted_via": "PartnerIQ Dynamic NLP Entity Extractor",
+      "updated_at": "2026-10-26T13:40:39.840569",
+      "created_at": "2026-10-26T13:40:39.840569"
+    },
+    "comp_datadog": {
+      "id": "comp_datadog",
+      "name": "Datadog",
+      "slug": "datadog",
+      "domain": "datadoghq.com",
+      "tagline": "Enterprise platform for next-generation Cloud Observability & Security",
+      "overview": "See inside any stack, any app, at any scale, anywhere.",
+      "industry": "Cloud Observability & Security",
+      "founding_year": 2016,
+      "founders": "Datadog Executive Leadership Team",
+      "headquarters": "Global Operations",
+      "employee_count": "250+ Employees",
+      "employee_rating": "4.1 / 5.0 (Industry Peer Index)",
+      "funding_stage": "Institutional Growth Stage",
+      "estimated_revenue": "Commercial Enterprise Scale",
+      "profitability_status": "Capitalized & Operationally Solvent",
+      "business_model": "B2B SaaS / Developer Infrastructure",
+      "products": [
+        {
+          "name": "Datadog Enterprise Platform",
+          "description": "Core scalable solutions for Cloud Observability & Security."
+        },
+        {
+          "name": "Datadog Integration APIs & Connectors",
+          "description": "Programmatic interfaces (RESTful JSON API, Webhooks) for automated data exchange."
+        },
+        {
+          "name": "Datadog Security & Governance Hub",
+          "description": "Enterprise access controls, audit logs, and compliance enforcement."
+        }
+      ],
+      "tech_stack": {
+        "cloud_platforms": [
+          "Multi-Cloud AWS/GCP"
+        ],
+        "api_types": [
+          "RESTful JSON API",
+          "Webhooks"
+        ],
+        "sdks": [
+          "Python",
+          "JavaScript / TypeScript",
+          "Go"
+        ],
+        "architecture": "Event-driven distributed microservices with container orchestration",
+        "security_features": [
+          "SOC 2 Type II",
+          "ISO 27001",
+          "GDPR"
+        ]
+      },
+      "integrations": [
+        "AWS",
+        "Salesforce",
+        "Google Cloud",
+        "Slack",
+        "Microsoft Teams",
+        "GitHub"
+      ],
+      "target_market": "High-growth tech companies and global enterprises",
+      "evidence_sources": [
+        {
+          "id": "ev_8e931d9f",
+          "source_url": "https://www.datadoghq.com/",
+          "source_title": "Datadog Official Domain & Overview",
+          "category": "primary_source",
+          "snippet": "See inside any stack, any app, at any scale, anywhere.",
+          "confidence": 0.98,
+          "timestamp": "2026-10-26T13:40:40.780141"
+        },
+        {
+          "id": "ev_sec_88c527c2",
+          "source_url": "https://www.datadoghq.com/trust/",
+          "source_title": "Datadog Trust & Security Architecture",
+          "category": "compliance",
+          "snippet": "Trust Hub | Datadog Datadog Trust HubOur mission is to build and preserve our customer’s trust in the Datadog platform by prioritizing safety and transparency.Security and ComplianceOur commitment to security and compliance is embedded in every part of our business. Use the Trust Center to learn about our security and compliance posture and request access to our documentation.READ MORE PrivacyData",
+          "confidence": 0.99,
+          "timestamp": "2026-10-26T13:40:42.100312"
+        }
+      ],
+      "extraction_confidence": 0.92,
+      "extracted_via": "PartnerIQ Dynamic NLP Entity Extractor",
+      "updated_at": "2026-10-26T13:41:02.153907",
+      "created_at": "2026-10-26T13:41:02.153907"
+    },
+    "comp_snowflake": {
+      "id": "comp_snowflake",
+      "name": "Snowflake",
+      "slug": "snowflake",
+      "domain": "snowflake.com",
+      "tagline": "Enterprise platform for next-generation Cloud Data Platform",
+      "overview": "Snowflake powers AI, data engineering, applications, and analytics on a trusted, scalable AI Data Cloud—eliminating silos and accelerating innovation.",
+      "industry": "Cloud Data Platform",
+      "founding_year": 2016,
+      "founders": "Snowflake Executive Leadership Team",
+      "headquarters": "Global Operations",
+      "employee_count": "250+ Employees",
+      "employee_rating": "3.9 / 5.0 (Industry Peer Index)",
+      "funding_stage": "Institutional Growth Stage",
+      "estimated_revenue": "Commercial Enterprise Scale",
+      "profitability_status": "Capitalized & Operationally Solvent",
+      "business_model": "B2B SaaS / Developer Infrastructure",
+      "products": [
+        {
+          "name": "Snowflake Enterprise Platform",
+          "description": "Core scalable solutions for Cloud Data Platform."
+        },
+        {
+          "name": "Snowflake Integration APIs & Connectors",
+          "description": "Programmatic interfaces (RESTful JSON API, Webhooks) for automated data exchange."
+        },
+        {
+          "name": "Snowflake Security & Governance Hub",
+          "description": "Enterprise access controls, audit logs, and compliance enforcement."
+        }
+      ],
+      "tech_stack": {
+        "cloud_platforms": [
+          "Multi-Cloud AWS/GCP"
+        ],
+        "api_types": [
+          "RESTful JSON API",
+          "Webhooks"
+        ],
+        "sdks": [
+          "Go"
+        ],
+        "architecture": "Event-driven distributed microservices with container orchestration",
+        "security_features": [
+          "SOC 2 Type II",
+          "ISO 27001",
+          "GDPR"
+        ]
+      },
+      "integrations": [
+        "AWS",
+        "Salesforce",
+        "Google Cloud",
+        "Slack",
+        "Microsoft Teams",
+        "GitHub"
+      ],
+      "target_market": "High-growth tech companies and global enterprises",
+      "evidence_sources": [
+        {
+          "id": "ev_27b0dcfe",
+          "source_url": "https://www.snowflake.com/en/",
+          "source_title": "Snowflake Official Domain & Overview",
+          "category": "primary_source",
+          "snippet": "Snowflake powers AI, data engineering, applications, and analytics on a trusted, scalable AI Data Cloud—eliminating silos and accelerating innovation.",
+          "confidence": 0.98,
+          "timestamp": "2026-10-26T13:41:02.846038"
+        },
+        {
+          "id": "ev_sec_54e2ec9e",
+          "source_url": "https://www.snowflake.com/en/why-snowflake/snowflake-security-hub/",
+          "source_title": "Snowflake Trust & Security Architecture",
+          "category": "compliance",
+          "snippet": "Snowflake's Security and Trust Center offers robust built-in security features, compliance with industry standards, and infrastructure resilience for your data.",
+          "confidence": 0.99,
+          "timestamp": "2026-10-26T13:41:04.677684"
+        }
+      ],
+      "extraction_confidence": 0.92,
+      "extracted_via": "PartnerIQ Dynamic NLP Entity Extractor",
+      "updated_at": "2026-10-26T13:41:24.724655",
+      "created_at": "2026-10-26T13:41:24.724655"
+    },
+    "comp_supabase": {
+      "id": "comp_supabase",
+      "name": "Supabase",
+      "slug": "supabase",
+      "domain": "supabase.com",
+      "tagline": "Enterprise platform for next-generation Open Source BaaS / Postgres",
+      "overview": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+      "industry": "Open Source BaaS / Postgres",
+      "founding_year": 2016,
+      "founders": "Supabase Executive Leadership Team",
+      "headquarters": "Global Operations",
+      "employee_count": "250+ Employees",
+      "employee_rating": "3.9 / 5.0 (Industry Peer Index)",
+      "funding_stage": "Institutional Growth Stage",
+      "estimated_revenue": "Commercial Enterprise Scale",
+      "profitability_status": "Capitalized & Operationally Solvent",
+      "business_model": "B2B SaaS / Developer Infrastructure",
+      "products": [
+        {
+          "name": "Supabase Enterprise Platform",
+          "description": "Core scalable solutions for Open Source BaaS / Postgres."
+        },
+        {
+          "name": "Supabase Integration APIs & Connectors",
+          "description": "Programmatic interfaces (RESTful JSON API, Webhooks) for automated data exchange."
+        },
+        {
+          "name": "Supabase Security & Governance Hub",
+          "description": "Enterprise access controls, audit logs, and compliance enforcement."
+        }
+      ],
+      "tech_stack": {
+        "cloud_platforms": [
+          "Multi-Cloud AWS/GCP"
+        ],
+        "api_types": [
+          "RESTful JSON API",
+          "Webhooks"
+        ],
+        "sdks": [
+          "Python",
+          "JavaScript / TypeScript",
+          "Go"
+        ],
+        "architecture": "Event-driven distributed microservices with container orchestration",
+        "security_features": [
+          "SOC 2",
+          "ISO 27001",
+          "GDPR",
+          "HIPAA"
+        ]
+      },
+      "integrations": [
+        "AWS",
+        "Salesforce",
+        "Google Cloud",
+        "Slack",
+        "Microsoft Teams",
+        "GitHub"
+      ],
+      "target_market": "High-growth tech companies and global enterprises",
+      "evidence_sources": [
+        {
+          "id": "ev_0e738d03",
+          "source_url": "https://supabase.com",
+          "source_title": "Supabase Official Domain & Overview",
+          "category": "primary_source",
+          "snippet": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+          "confidence": 0.98,
+          "timestamp": "2026-10-26T13:41:25.566654"
+        },
+        {
+          "id": "ev_sec_a819a892",
+          "source_url": "https://supabase.com/security",
+          "source_title": "Supabase Trust & Security Architecture",
+          "category": "compliance",
+          "snippet": "Supabase is trusted by thousands of developers for building and deploying secure applications.",
+          "confidence": 0.99,
+          "timestamp": "2026-10-26T13:41:26.149089"
+        }
+      ],
+      "extraction_confidence": 0.92,
+      "extracted_via": "PartnerIQ Dynamic NLP Entity Extractor",
+      "updated_at": "2026-10-26T13:41:46.197374",
+      "created_at": "2026-10-26T13:41:46.197374"
+    },
+    "comp_omnishieldsecu": {
+      "id": "comp_omnishieldsecu",
+      "name": "OmniShield Security (Legacy Risk Case)",
+      "slug": "omnishieldsecurity(legacyriskcase)",
+      "domain": "omnishield-riskfail.io",
+      "tagline": "Enterprise platform for next-generation Legacy Endpoint Defense",
+      "overview": "OmniShield Security (Legacy Risk Case) is an enterprise technology provider operating in the Legacy Endpoint Defense domain.",
+      "industry": "Legacy Endpoint Defense",
+      "founding_year": 2016,
+      "founders": "OmniShield Security (Legacy Risk Case) Executive Leadership Team",
+      "headquarters": "Global Operations",
+      "employee_count": "250+ Employees",
+      "employee_rating": "3.9 / 5.0 (Industry Peer Index)",
+      "funding_stage": "Institutional Growth Stage",
+      "estimated_revenue": "Commercial Enterprise Scale",
+      "profitability_status": "Capitalized & Operationally Solvent",
+      "business_model": "B2B SaaS / Developer Infrastructure",
+      "products": [
+        {
+          "name": "OmniShield Security (Legacy Risk Case) Enterprise Platform",
+          "description": "Core scalable solutions for Legacy Endpoint Defense."
+        },
+        {
+          "name": "OmniShield Security (Legacy Risk Case) Integration APIs & Connectors",
+          "description": "Programmatic interfaces (RESTful JSON API, Webhooks) for automated data exchange."
+        },
+        {
+          "name": "OmniShield Security (Legacy Risk Case) Security & Governance Hub",
+          "description": "Enterprise access controls, audit logs, and compliance enforcement."
+        }
+      ],
+      "tech_stack": {
+        "cloud_platforms": [
+          "Multi-Cloud AWS/GCP"
+        ],
+        "api_types": [
+          "RESTful JSON API",
+          "Webhooks"
+        ],
+        "sdks": [
+          "Python",
+          "JavaScript / TypeScript",
+          "Go"
+        ],
+        "architecture": "Event-driven distributed microservices with container orchestration",
+        "security_features": []
+      },
+      "integrations": [
+        "AWS",
+        "Salesforce",
+        "Google Cloud",
+        "Slack",
+        "Microsoft Teams",
+        "GitHub"
+      ],
+      "target_market": "High-growth tech companies and global enterprises",
+      "evidence_sources": [
+        {
+          "id": "ev_direct_26f54925",
+          "source_url": "https://omnishield-riskfail.io",
+          "source_title": "OmniShield Security (Legacy Risk Case) Corporate Intelligence",
+          "category": "primary_source",
+          "snippet": "Verified corporate presence for OmniShield Security (Legacy Risk Case) at omnishield-riskfail.io.",
+          "confidence": 0.9,
+          "timestamp": "2026-10-26T13:42:07.195757"
+        },
+        {
+          "id": "ev_risk_01",
+          "source_url": "https://trade.gov/enforcement-records/omnishield",
+          "source_title": "Commerce Department Sanctions & Export Prohibition Record",
+          "category": "risk_audit",
+          "snippet": "OmniShield subject to active federal trade sanctions and prohibitive export restriction due to ongoing fraud indictment.",
+          "confidence": 0.99,
+          "timestamp": "2026-03-01T10:00:00Z"
+        },
+        {
+          "id": "ev_risk_02",
+          "source_url": "https://cve.mitre.org/breach-advisories/omnishield",
+          "source_title": "CVE MITRE Unmitigated Ransomware & Breach Disclosure",
+          "category": "risk_audit",
+          "snippet": "Catastrophic unpatched remote code execution vulnerability (CVSS 9.8) exploited in the wild resulting in active customer data leak.",
+          "confidence": 0.98,
+          "timestamp": "2026-02-15T12:00:00Z"
+        }
+      ],
+      "extraction_confidence": 0.92,
+      "extracted_via": "PartnerIQ Dynamic NLP Entity Extractor",
+      "updated_at": "2026-10-26T13:42:07.197464",
+      "created_at": "2026-10-26T13:42:07.197464"
+    },
+    "comp_cloudflare": {
+      "id": "comp_cloudflare",
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "domain": "cloudflare.com",
+      "tagline": "Enterprise platform for next-generation Edge Cloud & Cybersecurity",
+      "overview": "Welcome to Cloudflare - Powering the next generation of applications",
+      "industry": "Edge Cloud & Cybersecurity",
+      "founding_year": 2026,
+      "founders": "Cloudflare Executive Leadership Team",
+      "headquarters": "Global Operations",
+      "employee_count": "250+ Employees",
+      "employee_rating": "3.9 / 5.0 (Industry Peer Index)",
+      "funding_stage": "Institutional Growth Stage",
+      "estimated_revenue": "Commercial Enterprise Scale",
+      "profitability_status": "Capitalized & Operationally Solvent",
+      "business_model": "B2B SaaS / Developer Infrastructure",
+      "products": [
+        {
+          "name": "Cloudflare Enterprise Platform",
+          "description": "Core scalable solutions for Edge Cloud & Cybersecurity."
+        },
+        {
+          "name": "Cloudflare Integration APIs & Connectors",
+          "description": "Programmatic interfaces (RESTful JSON API, Webhooks) for automated data exchange."
+        },
+        {
+          "name": "Cloudflare Security & Governance Hub",
+          "description": "Enterprise access controls, audit logs, and compliance enforcement."
+        }
+      ],
+      "tech_stack": {
+        "cloud_platforms": [
+          "Cloudflare"
+        ],
+        "api_types": [
+          "RESTful JSON API",
+          "Webhooks"
+        ],
+        "sdks": [
+          "Python",
+          "JavaScript / TypeScript",
+          "Go"
+        ],
+        "architecture": "Event-driven distributed microservices with container orchestration",
+        "security_features": [
+          "SOC 2 Type II",
+          "ISO 27001",
+          "GDPR"
+        ]
+      },
+      "integrations": [
+        "AWS",
+        "Salesforce",
+        "Google Cloud",
+        "Slack",
+        "Microsoft Teams",
+        "GitHub"
+      ],
+      "target_market": "High-growth tech companies and global enterprises",
+      "evidence_sources": [
+        {
+          "id": "ev_794f6467",
+          "source_url": "https://www.cloudflare.com/",
+          "source_title": "Cloudflare Official Domain & Overview",
+          "category": "primary_source",
+          "snippet": "Welcome to Cloudflare - Powering the next generation of applications",
+          "confidence": 0.98,
+          "timestamp": "2026-10-26T13:41:51.875015"
+        },
+        {
+          "id": "ev_sec_ff60db44",
+          "source_url": "https://www.cloudflare.com/cybersecurity/",
+          "source_title": "Cloudflare Trust & Security Architecture",
+          "category": "compliance",
+          "snippet": "Cloudflare's unified cybersecurity platform secures users, apps, and networks everywhere. See how a connectivity cloud simplifies and streamlines security.",
+          "confidence": 0.99,
+          "timestamp": "2026-10-26T13:41:54.350995"
+        }
+      ],
+      "extraction_confidence": 0.92,
+      "extracted_via": "PartnerIQ Dynamic NLP Entity Extractor",
+      "updated_at": "2026-10-26T13:42:14.394972",
+      "created_at": "2026-10-26T13:42:14.394972"
+    },
+    "comp_shopify": {
+      "id": "comp_shopify",
+      "name": "Shopify",
+      "slug": "shopify",
+      "domain": "shopify.com",
+      "tagline": "Enterprise platform for next-generation Global E-Commerce Infrastructure",
+      "overview": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.",
+      "industry": "Global E-Commerce Infrastructure",
+      "founding_year": 2016,
+      "founders": "Shopify Executive Leadership Team",
+      "headquarters": "Global Operations",
+      "employee_count": "250+ Employees",
+      "employee_rating": "3.9 / 5.0 (Industry Peer Index)",
+      "funding_stage": "Institutional Growth Stage",
+      "estimated_revenue": "$125.00B",
+      "profitability_status": "Capitalized & Operationally Solvent",
+      "business_model": "B2B SaaS / Developer Infrastructure",
+      "products": [
+        {
+          "name": "Shopify Enterprise Platform",
+          "description": "Core scalable solutions for Global E-Commerce Infrastructure."
+        },
+        {
+          "name": "Shopify Integration APIs & Connectors",
+          "description": "Programmatic interfaces (RESTful JSON API, Webhooks) for automated data exchange."
+        },
+        {
+          "name": "Shopify Security & Governance Hub",
+          "description": "Enterprise access controls, audit logs, and compliance enforcement."
+        }
+      ],
+      "tech_stack": {
+        "cloud_platforms": [
+          "Multi-Cloud AWS/GCP"
+        ],
+        "api_types": [
+          "RESTful JSON API",
+          "Webhooks"
+        ],
+        "sdks": [
+          "Python",
+          "JavaScript / TypeScript",
+          "Go"
+        ],
+        "architecture": "Event-driven distributed microservices with container orchestration",
+        "security_features": [
+          "GDPR",
+          "CCPA"
+        ]
+      },
+      "integrations": [
+        "AWS",
+        "Salesforce",
+        "Google Cloud",
+        "Slack",
+        "Microsoft Teams",
+        "GitHub"
+      ],
+      "target_market": "High-growth tech companies and global enterprises",
+      "evidence_sources": [
+        {
+          "id": "ev_26a7e423",
+          "source_url": "https://www.shopify.com/",
+          "source_title": "Shopify Official Domain & Overview",
+          "category": "primary_source",
+          "snippet": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.",
+          "confidence": 0.98,
+          "timestamp": "2026-10-26T14:05:47.875465"
+        },
+        {
+          "id": "ev_sec_8b6abcad",
+          "source_url": "https://www.shopify.com/security",
+          "source_title": "Shopify Trust & Security Architecture",
+          "category": "compliance",
+          "snippet": "Shopify's commitment to security, including PCI compliance, SOC reports, privacy measures, and transparency reporting.",
+          "confidence": 0.99,
+          "timestamp": "2026-10-26T14:05:49.123000"
+        }
+      ],
+      "extraction_confidence": 0.92,
+      "extracted_via": "PartnerIQ Dynamic NLP Entity Extractor",
+      "updated_at": "2026-10-26T14:05:59.171750",
+      "created_at": "2026-10-26T14:05:59.171750"
+    }
+  },
+  "evaluations": {
+    "comp_stripe": {
+      "company_id": "comp_stripe",
+      "company_name": "Stripe",
+      "risk_evaluation": {
+        "company_id": "comp_stripe",
+        "company_name": "Stripe",
+        "evaluated_at": "2026-10-26T13:40:39.840569",
+        "gating_status": "PASS",
+        "qualification_status": "QUALIFIED",
+        "composite_risk_score": 90.8,
+        "gate_verdict_message": "All mandatory risk gates passed successfully. Candidate verified and safe for partnership.",
+        "pillars": {
+          "legal": {
+            "status": "PASS",
+            "score": 96,
+            "summary": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified.",
+            "evidence_ref": "https://dockets.justia.com/search?q=Stripe",
+            "risk_level": "LOW",
+            "details": [
+              "Clean OFAC and international trade sanctions check.",
+              "Intellectual property and trademarks properly defended.",
+              "Standard enterprise dispute arbitration provisions active."
+            ]
+          },
+          "financial": {
+            "status": "PASS",
+            "score": 80,
+            "summary": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing.",
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "risk_level": "LOW",
+            "details": [
+              "Capitalization Stage: Institutional Growth Stage.",
+              "Revenue / Scale Indicator: Commercial Enterprise Scale.",
+              "Solvency Status: Capitalized & Operationally Solvent."
+            ]
+          },
+          "compliance": {
+            "status": "PASS",
+            "score": 94,
+            "summary": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+            "evidence_ref": "https://trust.stripe.com",
+            "risk_level": "LOW",
+            "details": [
+              "Verified Compliance Standards: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+              "Annual independent Qualified Security Assessor (QSA) audit documentation verified.",
+              "Standard Data Processing Agreements (DPA) available for enterprise privacy compliance."
+            ]
+          },
+          "safety": {
+            "status": "PASS",
+            "score": 93,
+            "summary": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified.",
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Stripe",
+            "risk_level": "LOW",
+            "details": [
+              "Zero high-severity CVSS (>9.0) remote code execution vulnerabilities active.",
+              "Continuous automated dependency scanning and penetration testing verified.",
+              "TLS 1.3 enforced in-transit; AES-256 encrypted at-rest."
+            ]
+          }
+        },
+        "rule_evaluations": [
+          {
+            "rule_id": "RULE_LEGAL_01",
+            "title": "Clean Regulatory & Sanction Status",
+            "category": "legal",
+            "description": "Company must not be subject to active international trade sanctions, fraud indictments, or prohibitive antitrust bans.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://dockets.justia.com/search?q=Stripe",
+            "notes": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified."
+          },
+          {
+            "rule_id": "RULE_COMPLIANCE_01",
+            "title": "Enterprise Security Certification",
+            "category": "compliance",
+            "description": "Must maintain verified SOC 2 Type II or ISO 27001 certification and GDPR/CCPA data privacy compliance posture.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://trust.stripe.com",
+            "notes": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant."
+          },
+          {
+            "rule_id": "RULE_FINANCIAL_01",
+            "title": "Financial Viability & Solvency",
+            "category": "financial",
+            "description": "Company must demonstrate verifiable institutional solvency (Series A+, Public, or Profitable) with verified capital runway.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "notes": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing."
+          },
+          {
+            "rule_id": "RULE_SAFETY_01",
+            "title": "Information Security & Breach Posture",
+            "category": "safety",
+            "description": "Zero unmitigated critical zero-day exploits, active ransomware incidents, or major customer data breach events.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Stripe",
+            "notes": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified."
+          }
+        ],
+        "mandatory_rules_passed": 4,
+        "mandatory_rules_total": 4
+      },
+      "fit_scores": {
+        "company_id": "comp_stripe",
+        "company_name": "Stripe",
+        "weights_applied": {
+          "strategic": 35.0,
+          "technical": 40.0,
+          "market": 25.0
+        },
+        "weighted_fit_score": 86.4,
+        "partnership_tier": "Tier 1: Strategic Alliance (Ideal Fit)",
+        "recommendation_level": "HIGHLY RECOMMENDED",
+        "recommendation_badge": "TOP_RECOMMENDED",
+        "risk_gating_status": "PASS",
+        "dimensions": {
+          "strategic": {
+            "score": 92.0,
+            "weight_percent": 35.0,
+            "contribution": 32.2,
+            "submetrics": {
+              "objective_alignment": 96,
+              "ecosystem_synergy": 93,
+              "co_selling_potential": 92,
+              "partner_commitment": 87
+            },
+            "key_strengths": [
+              "High synergy with cloud & enterprise workflows",
+              "Demonstrated go-to-market co-selling and mutual customer reach",
+              "Scalable partner commitment and ecosystem architecture"
+            ]
+          },
+          "technical": {
+            "score": 86.0,
+            "weight_percent": 40.0,
+            "contribution": 34.4,
+            "submetrics": {
+              "api_maturity": 87,
+              "architectural_harmony": 88,
+              "integration_velocity": 85,
+              "developer_ecosystem": 84
+            },
+            "key_strengths": [
+              "Modern programmatic APIs (RESTful JSON API, Webhooks)",
+              "Multi-language SDK coverage (Python, JavaScript / TypeScript, Go)",
+              "High availability multi-region cloud deployment"
+            ]
+          },
+          "market": {
+            "score": 79.2,
+            "weight_percent": 25.0,
+            "contribution": 19.8,
+            "submetrics": {
+              "market_momentum": 82,
+              "brand_reputation": 78,
+              "customer_sentiment": 76,
+              "competitive_defensibility": 81
+            },
+            "key_strengths": [
+              "Established brand equity and executive market trust",
+              "Proven commercial momentum and capital stability",
+              "High user ratings and verified peer review sentiment"
+            ]
+          }
+        }
+      },
+      "id": "comp_stripe",
+      "updated_at": "2026-10-26T13:40:39.843483",
+      "created_at": "2026-10-26T13:40:39.843483"
+    },
+    "comp_datadog": {
+      "company_id": "comp_datadog",
+      "company_name": "Datadog",
+      "risk_evaluation": {
+        "company_id": "comp_datadog",
+        "company_name": "Datadog",
+        "evaluated_at": "2026-10-26T13:41:02.153907",
+        "gating_status": "PASS",
+        "qualification_status": "QUALIFIED",
+        "composite_risk_score": 90.8,
+        "gate_verdict_message": "All mandatory risk gates passed successfully. Candidate verified and safe for partnership.",
+        "pillars": {
+          "legal": {
+            "status": "PASS",
+            "score": 96,
+            "summary": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified.",
+            "evidence_ref": "https://dockets.justia.com/search?q=Datadog",
+            "risk_level": "LOW",
+            "details": [
+              "Clean OFAC and international trade sanctions check.",
+              "Intellectual property and trademarks properly defended.",
+              "Standard enterprise dispute arbitration provisions active."
+            ]
+          },
+          "financial": {
+            "status": "PASS",
+            "score": 80,
+            "summary": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing.",
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "risk_level": "LOW",
+            "details": [
+              "Capitalization Stage: Institutional Growth Stage.",
+              "Revenue / Scale Indicator: Commercial Enterprise Scale.",
+              "Solvency Status: Capitalized & Operationally Solvent."
+            ]
+          },
+          "compliance": {
+            "status": "PASS",
+            "score": 94,
+            "summary": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+            "evidence_ref": "https://trust.datadog.com",
+            "risk_level": "LOW",
+            "details": [
+              "Verified Compliance Standards: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+              "Annual independent Qualified Security Assessor (QSA) audit documentation verified.",
+              "Standard Data Processing Agreements (DPA) available for enterprise privacy compliance."
+            ]
+          },
+          "safety": {
+            "status": "PASS",
+            "score": 93,
+            "summary": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified.",
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Datadog",
+            "risk_level": "LOW",
+            "details": [
+              "Zero high-severity CVSS (>9.0) remote code execution vulnerabilities active.",
+              "Continuous automated dependency scanning and penetration testing verified.",
+              "TLS 1.3 enforced in-transit; AES-256 encrypted at-rest."
+            ]
+          }
+        },
+        "rule_evaluations": [
+          {
+            "rule_id": "RULE_LEGAL_01",
+            "title": "Clean Regulatory & Sanction Status",
+            "category": "legal",
+            "description": "Company must not be subject to active international trade sanctions, fraud indictments, or prohibitive antitrust bans.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://dockets.justia.com/search?q=Datadog",
+            "notes": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified."
+          },
+          {
+            "rule_id": "RULE_COMPLIANCE_01",
+            "title": "Enterprise Security Certification",
+            "category": "compliance",
+            "description": "Must maintain verified SOC 2 Type II or ISO 27001 certification and GDPR/CCPA data privacy compliance posture.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://trust.datadog.com",
+            "notes": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant."
+          },
+          {
+            "rule_id": "RULE_FINANCIAL_01",
+            "title": "Financial Viability & Solvency",
+            "category": "financial",
+            "description": "Company must demonstrate verifiable institutional solvency (Series A+, Public, or Profitable) with verified capital runway.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "notes": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing."
+          },
+          {
+            "rule_id": "RULE_SAFETY_01",
+            "title": "Information Security & Breach Posture",
+            "category": "safety",
+            "description": "Zero unmitigated critical zero-day exploits, active ransomware incidents, or major customer data breach events.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Datadog",
+            "notes": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified."
+          }
+        ],
+        "mandatory_rules_passed": 4,
+        "mandatory_rules_total": 4
+      },
+      "fit_scores": {
+        "company_id": "comp_datadog",
+        "company_name": "Datadog",
+        "weights_applied": {
+          "strategic": 35.0,
+          "technical": 40.0,
+          "market": 25.0
+        },
+        "weighted_fit_score": 86.9,
+        "partnership_tier": "Tier 1: Strategic Alliance (Ideal Fit)",
+        "recommendation_level": "HIGHLY RECOMMENDED",
+        "recommendation_badge": "TOP_RECOMMENDED",
+        "risk_gating_status": "PASS",
+        "dimensions": {
+          "strategic": {
+            "score": 92.0,
+            "weight_percent": 35.0,
+            "contribution": 32.2,
+            "submetrics": {
+              "objective_alignment": 96,
+              "ecosystem_synergy": 93,
+              "co_selling_potential": 92,
+              "partner_commitment": 87
+            },
+            "key_strengths": [
+              "High synergy with cloud & enterprise workflows",
+              "Demonstrated go-to-market co-selling and mutual customer reach",
+              "Scalable partner commitment and ecosystem architecture"
+            ]
+          },
+          "technical": {
+            "score": 86.0,
+            "weight_percent": 40.0,
+            "contribution": 34.4,
+            "submetrics": {
+              "api_maturity": 87,
+              "architectural_harmony": 88,
+              "integration_velocity": 85,
+              "developer_ecosystem": 84
+            },
+            "key_strengths": [
+              "Modern programmatic APIs (RESTful JSON API, Webhooks)",
+              "Multi-language SDK coverage (Python, JavaScript / TypeScript, Go)",
+              "High availability multi-region cloud deployment"
+            ]
+          },
+          "market": {
+            "score": 81.2,
+            "weight_percent": 25.0,
+            "contribution": 20.3,
+            "submetrics": {
+              "market_momentum": 82,
+              "brand_reputation": 82,
+              "customer_sentiment": 80,
+              "competitive_defensibility": 81
+            },
+            "key_strengths": [
+              "Established brand equity and executive market trust",
+              "Proven commercial momentum and capital stability",
+              "High user ratings and verified peer review sentiment"
+            ]
+          }
+        }
+      },
+      "id": "comp_datadog",
+      "updated_at": "2026-10-26T13:41:02.156837",
+      "created_at": "2026-10-26T13:41:02.156837"
+    },
+    "comp_snowflake": {
+      "company_id": "comp_snowflake",
+      "company_name": "Snowflake",
+      "risk_evaluation": {
+        "company_id": "comp_snowflake",
+        "company_name": "Snowflake",
+        "evaluated_at": "2026-10-26T13:41:24.724655",
+        "gating_status": "PASS",
+        "qualification_status": "QUALIFIED",
+        "composite_risk_score": 90.8,
+        "gate_verdict_message": "All mandatory risk gates passed successfully. Candidate verified and safe for partnership.",
+        "pillars": {
+          "legal": {
+            "status": "PASS",
+            "score": 96,
+            "summary": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified.",
+            "evidence_ref": "https://dockets.justia.com/search?q=Snowflake",
+            "risk_level": "LOW",
+            "details": [
+              "Clean OFAC and international trade sanctions check.",
+              "Intellectual property and trademarks properly defended.",
+              "Standard enterprise dispute arbitration provisions active."
+            ]
+          },
+          "financial": {
+            "status": "PASS",
+            "score": 80,
+            "summary": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing.",
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "risk_level": "LOW",
+            "details": [
+              "Capitalization Stage: Institutional Growth Stage.",
+              "Revenue / Scale Indicator: Commercial Enterprise Scale.",
+              "Solvency Status: Capitalized & Operationally Solvent."
+            ]
+          },
+          "compliance": {
+            "status": "PASS",
+            "score": 94,
+            "summary": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+            "evidence_ref": "https://trust.snowflake.com",
+            "risk_level": "LOW",
+            "details": [
+              "Verified Compliance Standards: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+              "Annual independent Qualified Security Assessor (QSA) audit documentation verified.",
+              "Standard Data Processing Agreements (DPA) available for enterprise privacy compliance."
+            ]
+          },
+          "safety": {
+            "status": "PASS",
+            "score": 93,
+            "summary": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified.",
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Snowflake",
+            "risk_level": "LOW",
+            "details": [
+              "Zero high-severity CVSS (>9.0) remote code execution vulnerabilities active.",
+              "Continuous automated dependency scanning and penetration testing verified.",
+              "TLS 1.3 enforced in-transit; AES-256 encrypted at-rest."
+            ]
+          }
+        },
+        "rule_evaluations": [
+          {
+            "rule_id": "RULE_LEGAL_01",
+            "title": "Clean Regulatory & Sanction Status",
+            "category": "legal",
+            "description": "Company must not be subject to active international trade sanctions, fraud indictments, or prohibitive antitrust bans.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://dockets.justia.com/search?q=Snowflake",
+            "notes": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified."
+          },
+          {
+            "rule_id": "RULE_COMPLIANCE_01",
+            "title": "Enterprise Security Certification",
+            "category": "compliance",
+            "description": "Must maintain verified SOC 2 Type II or ISO 27001 certification and GDPR/CCPA data privacy compliance posture.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://trust.snowflake.com",
+            "notes": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant."
+          },
+          {
+            "rule_id": "RULE_FINANCIAL_01",
+            "title": "Financial Viability & Solvency",
+            "category": "financial",
+            "description": "Company must demonstrate verifiable institutional solvency (Series A+, Public, or Profitable) with verified capital runway.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "notes": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing."
+          },
+          {
+            "rule_id": "RULE_SAFETY_01",
+            "title": "Information Security & Breach Posture",
+            "category": "safety",
+            "description": "Zero unmitigated critical zero-day exploits, active ransomware incidents, or major customer data breach events.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Snowflake",
+            "notes": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified."
+          }
+        ],
+        "mandatory_rules_passed": 4,
+        "mandatory_rules_total": 4
+      },
+      "fit_scores": {
+        "company_id": "comp_snowflake",
+        "company_name": "Snowflake",
+        "weights_applied": {
+          "strategic": 35.0,
+          "technical": 40.0,
+          "market": 25.0
+        },
+        "weighted_fit_score": 85.0,
+        "partnership_tier": "Tier 1: Strategic Alliance (Ideal Fit)",
+        "recommendation_level": "HIGHLY RECOMMENDED",
+        "recommendation_badge": "TOP_RECOMMENDED",
+        "risk_gating_status": "PASS",
+        "dimensions": {
+          "strategic": {
+            "score": 92.0,
+            "weight_percent": 35.0,
+            "contribution": 32.2,
+            "submetrics": {
+              "objective_alignment": 96,
+              "ecosystem_synergy": 93,
+              "co_selling_potential": 92,
+              "partner_commitment": 87
+            },
+            "key_strengths": [
+              "High synergy with cloud & enterprise workflows",
+              "Demonstrated go-to-market co-selling and mutual customer reach",
+              "Scalable partner commitment and ecosystem architecture"
+            ]
+          },
+          "technical": {
+            "score": 82.5,
+            "weight_percent": 40.0,
+            "contribution": 33.0,
+            "submetrics": {
+              "api_maturity": 87,
+              "architectural_harmony": 88,
+              "integration_velocity": 79,
+              "developer_ecosystem": 76
+            },
+            "key_strengths": [
+              "Modern programmatic APIs (RESTful JSON API, Webhooks)",
+              "Multi-language SDK coverage (Go)",
+              "High availability multi-region cloud deployment"
+            ]
+          },
+          "market": {
+            "score": 79.2,
+            "weight_percent": 25.0,
+            "contribution": 19.8,
+            "submetrics": {
+              "market_momentum": 82,
+              "brand_reputation": 78,
+              "customer_sentiment": 76,
+              "competitive_defensibility": 81
+            },
+            "key_strengths": [
+              "Established brand equity and executive market trust",
+              "Proven commercial momentum and capital stability",
+              "High user ratings and verified peer review sentiment"
+            ]
+          }
+        }
+      },
+      "id": "comp_snowflake",
+      "updated_at": "2026-10-26T13:41:24.728187",
+      "created_at": "2026-10-26T13:41:24.728187"
+    },
+    "comp_supabase": {
+      "company_id": "comp_supabase",
+      "company_name": "Supabase",
+      "risk_evaluation": {
+        "company_id": "comp_supabase",
+        "company_name": "Supabase",
+        "evaluated_at": "2026-10-26T13:41:46.197374",
+        "gating_status": "PASS",
+        "qualification_status": "QUALIFIED",
+        "composite_risk_score": 91.2,
+        "gate_verdict_message": "All mandatory risk gates passed successfully. Candidate verified and safe for partnership.",
+        "pillars": {
+          "legal": {
+            "status": "PASS",
+            "score": 96,
+            "summary": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified.",
+            "evidence_ref": "https://dockets.justia.com/search?q=Supabase",
+            "risk_level": "LOW",
+            "details": [
+              "Clean OFAC and international trade sanctions check.",
+              "Intellectual property and trademarks properly defended.",
+              "Standard enterprise dispute arbitration provisions active."
+            ]
+          },
+          "financial": {
+            "status": "PASS",
+            "score": 80,
+            "summary": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing.",
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "risk_level": "LOW",
+            "details": [
+              "Capitalization Stage: Institutional Growth Stage.",
+              "Revenue / Scale Indicator: Commercial Enterprise Scale.",
+              "Solvency Status: Capitalized & Operationally Solvent."
+            ]
+          },
+          "compliance": {
+            "status": "PASS",
+            "score": 96,
+            "summary": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant, HIPAA Verified.",
+            "evidence_ref": "https://trust.supabase.com",
+            "risk_level": "LOW",
+            "details": [
+              "Verified Compliance Standards: SOC 2 Type II, ISO 27001, GDPR Compliant, HIPAA Verified.",
+              "Annual independent Qualified Security Assessor (QSA) audit documentation verified.",
+              "Standard Data Processing Agreements (DPA) available for enterprise privacy compliance."
+            ]
+          },
+          "safety": {
+            "status": "PASS",
+            "score": 93,
+            "summary": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified.",
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Supabase",
+            "risk_level": "LOW",
+            "details": [
+              "Zero high-severity CVSS (>9.0) remote code execution vulnerabilities active.",
+              "Continuous automated dependency scanning and penetration testing verified.",
+              "TLS 1.3 enforced in-transit; AES-256 encrypted at-rest."
+            ]
+          }
+        },
+        "rule_evaluations": [
+          {
+            "rule_id": "RULE_LEGAL_01",
+            "title": "Clean Regulatory & Sanction Status",
+            "category": "legal",
+            "description": "Company must not be subject to active international trade sanctions, fraud indictments, or prohibitive antitrust bans.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://dockets.justia.com/search?q=Supabase",
+            "notes": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified."
+          },
+          {
+            "rule_id": "RULE_COMPLIANCE_01",
+            "title": "Enterprise Security Certification",
+            "category": "compliance",
+            "description": "Must maintain verified SOC 2 Type II or ISO 27001 certification and GDPR/CCPA data privacy compliance posture.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://trust.supabase.com",
+            "notes": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant, HIPAA Verified."
+          },
+          {
+            "rule_id": "RULE_FINANCIAL_01",
+            "title": "Financial Viability & Solvency",
+            "category": "financial",
+            "description": "Company must demonstrate verifiable institutional solvency (Series A+, Public, or Profitable) with verified capital runway.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "notes": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing."
+          },
+          {
+            "rule_id": "RULE_SAFETY_01",
+            "title": "Information Security & Breach Posture",
+            "category": "safety",
+            "description": "Zero unmitigated critical zero-day exploits, active ransomware incidents, or major customer data breach events.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Supabase",
+            "notes": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified."
+          }
+        ],
+        "mandatory_rules_passed": 4,
+        "mandatory_rules_total": 4
+      },
+      "fit_scores": {
+        "company_id": "comp_supabase",
+        "company_name": "Supabase",
+        "weights_applied": {
+          "strategic": 35.0,
+          "technical": 40.0,
+          "market": 25.0
+        },
+        "weighted_fit_score": 86.6,
+        "partnership_tier": "Tier 1: Strategic Alliance (Ideal Fit)",
+        "recommendation_level": "HIGHLY RECOMMENDED",
+        "recommendation_badge": "TOP_RECOMMENDED",
+        "risk_gating_status": "PASS",
+        "dimensions": {
+          "strategic": {
+            "score": 92.0,
+            "weight_percent": 35.0,
+            "contribution": 32.2,
+            "submetrics": {
+              "objective_alignment": 96,
+              "ecosystem_synergy": 93,
+              "co_selling_potential": 92,
+              "partner_commitment": 87
+            },
+            "key_strengths": [
+              "High synergy with cloud & enterprise workflows",
+              "Demonstrated go-to-market co-selling and mutual customer reach",
+              "Scalable partner commitment and ecosystem architecture"
+            ]
+          },
+          "technical": {
+            "score": 86.5,
+            "weight_percent": 40.0,
+            "contribution": 34.6,
+            "submetrics": {
+              "api_maturity": 87,
+              "architectural_harmony": 90,
+              "integration_velocity": 85,
+              "developer_ecosystem": 84
+            },
+            "key_strengths": [
+              "Modern programmatic APIs (RESTful JSON API, Webhooks)",
+              "Multi-language SDK coverage (Python, JavaScript / TypeScript, Go)",
+              "High availability multi-region cloud deployment"
+            ]
+          },
+          "market": {
+            "score": 79.2,
+            "weight_percent": 25.0,
+            "contribution": 19.8,
+            "submetrics": {
+              "market_momentum": 82,
+              "brand_reputation": 78,
+              "customer_sentiment": 76,
+              "competitive_defensibility": 81
+            },
+            "key_strengths": [
+              "Established brand equity and executive market trust",
+              "Proven commercial momentum and capital stability",
+              "High user ratings and verified peer review sentiment"
+            ]
+          }
+        }
+      },
+      "id": "comp_supabase",
+      "updated_at": "2026-10-26T13:41:46.201693",
+      "created_at": "2026-10-26T13:41:46.201693"
+    },
+    "comp_omnishieldsecu": {
+      "company_id": "comp_omnishieldsecu",
+      "company_name": "OmniShield Security (Legacy Risk Case)",
+      "risk_evaluation": {
+        "company_id": "comp_omnishieldsecu",
+        "company_name": "OmniShield Security (Legacy Risk Case)",
+        "evaluated_at": "2026-10-26T13:42:07.197464",
+        "gating_status": "FAIL",
+        "qualification_status": "DISQUALIFIED",
+        "composite_risk_score": 43.8,
+        "gate_verdict_message": "Gating FAILED: Violates mandatory requirement(s): Clean Regulatory & Sanction Status, Enterprise Security Certification, Information Security & Breach Posture. Partnership blocked.",
+        "pillars": {
+          "legal": {
+            "status": "FAIL",
+            "score": 30,
+            "summary": "Active legal alert: Evidence contains regulatory actions relating to indictment, fraud, export prohibition.",
+            "evidence_ref": "https://trade.gov/enforcement-records/omnishield",
+            "risk_level": "CRITICAL",
+            "details": [
+              "Violates Rule RULE_LEGAL_01 due to detected legal restriction: indictment.",
+              "Mandatory risk gate triggered: prohibits onboarding entities with open trade sanctions or fraud enforcement."
+            ]
+          },
+          "financial": {
+            "status": "PASS",
+            "score": 80,
+            "summary": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing.",
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "risk_level": "LOW",
+            "details": [
+              "Capitalization Stage: Institutional Growth Stage.",
+              "Revenue / Scale Indicator: Commercial Enterprise Scale.",
+              "Solvency Status: Capitalized & Operationally Solvent."
+            ]
+          },
+          "compliance": {
+            "status": "FAIL",
+            "score": 35,
+            "summary": "Mandatory compliance failure: Missing verified SOC 2 Type II or ISO 27001 independent audit certification.",
+            "evidence_ref": "https://omnishieldsecurity(legacyriskcase).com/security",
+            "risk_level": "CRITICAL",
+            "details": [
+              "Failed Mandatory Rule RULE_COMPLIANCE_01.",
+              "No public SOC 2 Type II independent CPA audit letter identified.",
+              "Data protection and access management governance not independently validated."
+            ]
+          },
+          "safety": {
+            "status": "FAIL",
+            "score": 30,
+            "summary": "Critical security alert: Harvested disclosures indicate recent security incidents (cvss 9.).",
+            "evidence_ref": "https://cve.mitre.org/breach-advisories/omnishield",
+            "risk_level": "CRITICAL",
+            "details": [
+              "Failed Mandatory Rule RULE_SAFETY_01.",
+              "Active unmitigated incident signal: cvss 9..",
+              "Enterprise policy prohibits integration with systems exhibiting unmitigated data leakage."
+            ]
+          }
+        },
+        "rule_evaluations": [
+          {
+            "rule_id": "RULE_LEGAL_01",
+            "title": "Clean Regulatory & Sanction Status",
+            "category": "legal",
+            "description": "Company must not be subject to active international trade sanctions, fraud indictments, or prohibitive antitrust bans.",
+            "passed": false,
+            "critical": true,
+            "evidence_ref": "https://trade.gov/enforcement-records/omnishield",
+            "notes": "Active legal alert: Evidence contains regulatory actions relating to indictment, fraud, export prohibition."
+          },
+          {
+            "rule_id": "RULE_COMPLIANCE_01",
+            "title": "Enterprise Security Certification",
+            "category": "compliance",
+            "description": "Must maintain verified SOC 2 Type II or ISO 27001 certification and GDPR/CCPA data privacy compliance posture.",
+            "passed": false,
+            "critical": true,
+            "evidence_ref": "https://omnishieldsecurity(legacyriskcase).com/security",
+            "notes": "Mandatory compliance failure: Missing verified SOC 2 Type II or ISO 27001 independent audit certification."
+          },
+          {
+            "rule_id": "RULE_FINANCIAL_01",
+            "title": "Financial Viability & Solvency",
+            "category": "financial",
+            "description": "Company must demonstrate verifiable institutional solvency (Series A+, Public, or Profitable) with verified capital runway.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "notes": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing."
+          },
+          {
+            "rule_id": "RULE_SAFETY_01",
+            "title": "Information Security & Breach Posture",
+            "category": "safety",
+            "description": "Zero unmitigated critical zero-day exploits, active ransomware incidents, or major customer data breach events.",
+            "passed": false,
+            "critical": true,
+            "evidence_ref": "https://cve.mitre.org/breach-advisories/omnishield",
+            "notes": "Critical security alert: Harvested disclosures indicate recent security incidents (cvss 9.)."
+          }
+        ],
+        "mandatory_rules_passed": 1,
+        "mandatory_rules_total": 4
+      },
+      "fit_scores": {
+        "company_id": "comp_omnishieldsecu",
+        "company_name": "OmniShield Security (Legacy Risk Case)",
+        "weights_applied": {
+          "strategic": 35.0,
+          "technical": 40.0,
+          "market": 25.0
+        },
+        "weighted_fit_score": 85.8,
+        "partnership_tier": "DISQUALIFIED (Risk Gate Failed)",
+        "recommendation_level": "DO NOT PROCEED",
+        "recommendation_badge": "FAIL_DISQUALIFIED",
+        "risk_gating_status": "FAIL",
+        "dimensions": {
+          "strategic": {
+            "score": 92.0,
+            "weight_percent": 35.0,
+            "contribution": 32.2,
+            "submetrics": {
+              "objective_alignment": 96,
+              "ecosystem_synergy": 93,
+              "co_selling_potential": 92,
+              "partner_commitment": 87
+            },
+            "key_strengths": [
+              "High synergy with cloud & enterprise workflows",
+              "Demonstrated go-to-market co-selling and mutual customer reach",
+              "Scalable partner commitment and ecosystem architecture"
+            ]
+          },
+          "technical": {
+            "score": 84.5,
+            "weight_percent": 40.0,
+            "contribution": 33.8,
+            "submetrics": {
+              "api_maturity": 87,
+              "architectural_harmony": 82,
+              "integration_velocity": 85,
+              "developer_ecosystem": 84
+            },
+            "key_strengths": [
+              "Modern programmatic APIs (RESTful JSON API, Webhooks)",
+              "Multi-language SDK coverage (Python, JavaScript / TypeScript, Go)",
+              "High availability multi-region cloud deployment"
+            ]
+          },
+          "market": {
+            "score": 79.2,
+            "weight_percent": 25.0,
+            "contribution": 19.8,
+            "submetrics": {
+              "market_momentum": 82,
+              "brand_reputation": 78,
+              "customer_sentiment": 76,
+              "competitive_defensibility": 81
+            },
+            "key_strengths": [
+              "Established brand equity and executive market trust",
+              "Proven commercial momentum and capital stability",
+              "High user ratings and verified peer review sentiment"
+            ]
+          }
+        }
+      },
+      "id": "comp_omnishieldsecu",
+      "updated_at": "2026-10-26T13:42:07.202721",
+      "created_at": "2026-10-26T13:42:07.202721"
+    },
+    "comp_cloudflare": {
+      "company_id": "comp_cloudflare",
+      "company_name": "Cloudflare",
+      "risk_evaluation": {
+        "company_id": "comp_cloudflare",
+        "company_name": "Cloudflare",
+        "evaluated_at": "2026-10-26T13:42:14.394972",
+        "gating_status": "PASS",
+        "qualification_status": "QUALIFIED",
+        "composite_risk_score": 90.8,
+        "gate_verdict_message": "All mandatory risk gates passed successfully. Candidate verified and safe for partnership.",
+        "pillars": {
+          "legal": {
+            "status": "PASS",
+            "score": 96,
+            "summary": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified.",
+            "evidence_ref": "https://dockets.justia.com/search?q=Cloudflare",
+            "risk_level": "LOW",
+            "details": [
+              "Clean OFAC and international trade sanctions check.",
+              "Intellectual property and trademarks properly defended.",
+              "Standard enterprise dispute arbitration provisions active."
+            ]
+          },
+          "financial": {
+            "status": "PASS",
+            "score": 80,
+            "summary": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing.",
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "risk_level": "LOW",
+            "details": [
+              "Capitalization Stage: Institutional Growth Stage.",
+              "Revenue / Scale Indicator: Commercial Enterprise Scale.",
+              "Solvency Status: Capitalized & Operationally Solvent."
+            ]
+          },
+          "compliance": {
+            "status": "PASS",
+            "score": 94,
+            "summary": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+            "evidence_ref": "https://trust.cloudflare.com",
+            "risk_level": "LOW",
+            "details": [
+              "Verified Compliance Standards: SOC 2 Type II, ISO 27001, GDPR Compliant.",
+              "Annual independent Qualified Security Assessor (QSA) audit documentation verified.",
+              "Standard Data Processing Agreements (DPA) available for enterprise privacy compliance."
+            ]
+          },
+          "safety": {
+            "status": "PASS",
+            "score": 93,
+            "summary": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified.",
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Cloudflare",
+            "risk_level": "LOW",
+            "details": [
+              "Zero high-severity CVSS (>9.0) remote code execution vulnerabilities active.",
+              "Continuous automated dependency scanning and penetration testing verified.",
+              "TLS 1.3 enforced in-transit; AES-256 encrypted at-rest."
+            ]
+          }
+        },
+        "rule_evaluations": [
+          {
+            "rule_id": "RULE_LEGAL_01",
+            "title": "Clean Regulatory & Sanction Status",
+            "category": "legal",
+            "description": "Company must not be subject to active international trade sanctions, fraud indictments, or prohibitive antitrust bans.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://dockets.justia.com/search?q=Cloudflare",
+            "notes": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified."
+          },
+          {
+            "rule_id": "RULE_COMPLIANCE_01",
+            "title": "Enterprise Security Certification",
+            "category": "compliance",
+            "description": "Must maintain verified SOC 2 Type II or ISO 27001 certification and GDPR/CCPA data privacy compliance posture.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://trust.cloudflare.com",
+            "notes": "Independently certified enterprise compliance: SOC 2 Type II, ISO 27001, GDPR Compliant."
+          },
+          {
+            "rule_id": "RULE_FINANCIAL_01",
+            "title": "Financial Viability & Solvency",
+            "category": "financial",
+            "description": "Company must demonstrate verifiable institutional solvency (Series A+, Public, or Profitable) with verified capital runway.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "notes": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing."
+          },
+          {
+            "rule_id": "RULE_SAFETY_01",
+            "title": "Information Security & Breach Posture",
+            "category": "safety",
+            "description": "Zero unmitigated critical zero-day exploits, active ransomware incidents, or major customer data breach events.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Cloudflare",
+            "notes": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified."
+          }
+        ],
+        "mandatory_rules_passed": 4,
+        "mandatory_rules_total": 4
+      },
+      "fit_scores": {
+        "company_id": "comp_cloudflare",
+        "company_name": "Cloudflare",
+        "weights_applied": {
+          "strategic": 35.0,
+          "technical": 40.0,
+          "market": 25.0
+        },
+        "weighted_fit_score": 86.4,
+        "partnership_tier": "Tier 1: Strategic Alliance (Ideal Fit)",
+        "recommendation_level": "HIGHLY RECOMMENDED",
+        "recommendation_badge": "TOP_RECOMMENDED",
+        "risk_gating_status": "PASS",
+        "dimensions": {
+          "strategic": {
+            "score": 92.0,
+            "weight_percent": 35.0,
+            "contribution": 32.2,
+            "submetrics": {
+              "objective_alignment": 96,
+              "ecosystem_synergy": 93,
+              "co_selling_potential": 92,
+              "partner_commitment": 87
+            },
+            "key_strengths": [
+              "High synergy with cloud & enterprise workflows",
+              "Demonstrated go-to-market co-selling and mutual customer reach",
+              "Scalable partner commitment and ecosystem architecture"
+            ]
+          },
+          "technical": {
+            "score": 86.0,
+            "weight_percent": 40.0,
+            "contribution": 34.4,
+            "submetrics": {
+              "api_maturity": 87,
+              "architectural_harmony": 88,
+              "integration_velocity": 85,
+              "developer_ecosystem": 84
+            },
+            "key_strengths": [
+              "Modern programmatic APIs (RESTful JSON API, Webhooks)",
+              "Multi-language SDK coverage (Python, JavaScript / TypeScript, Go)",
+              "High availability multi-region cloud deployment"
+            ]
+          },
+          "market": {
+            "score": 79.2,
+            "weight_percent": 25.0,
+            "contribution": 19.8,
+            "submetrics": {
+              "market_momentum": 82,
+              "brand_reputation": 78,
+              "customer_sentiment": 76,
+              "competitive_defensibility": 81
+            },
+            "key_strengths": [
+              "Established brand equity and executive market trust",
+              "Proven commercial momentum and capital stability",
+              "High user ratings and verified peer review sentiment"
+            ]
+          }
+        }
+      },
+      "id": "comp_cloudflare",
+      "updated_at": "2026-10-26T13:42:14.402486",
+      "created_at": "2026-10-26T13:42:14.402486"
+    },
+    "comp_shopify": {
+      "company_id": "comp_shopify",
+      "company_name": "Shopify",
+      "risk_evaluation": {
+        "company_id": "comp_shopify",
+        "company_name": "Shopify",
+        "evaluated_at": "2026-10-26T14:05:59.171315",
+        "gating_status": "FAIL",
+        "qualification_status": "DISQUALIFIED",
+        "composite_risk_score": 76.0,
+        "gate_verdict_message": "Gating FAILED: Violates mandatory requirement(s): Enterprise Security Certification. Partnership blocked.",
+        "pillars": {
+          "legal": {
+            "status": "PASS",
+            "score": 96,
+            "summary": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified.",
+            "evidence_ref": "https://dockets.justia.com/search?q=Shopify",
+            "risk_level": "LOW",
+            "details": [
+              "Clean OFAC and international trade sanctions check.",
+              "Intellectual property and trademarks properly defended.",
+              "Standard enterprise dispute arbitration provisions active."
+            ]
+          },
+          "financial": {
+            "status": "PASS",
+            "score": 80,
+            "summary": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing.",
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "risk_level": "LOW",
+            "details": [
+              "Capitalization Stage: Institutional Growth Stage.",
+              "Revenue / Scale Indicator: $125.00B.",
+              "Solvency Status: Capitalized & Operationally Solvent."
+            ]
+          },
+          "compliance": {
+            "status": "FAIL",
+            "score": 35,
+            "summary": "Mandatory compliance failure: Missing verified SOC 2 Type II or ISO 27001 independent audit certification.",
+            "evidence_ref": "https://shopify.com/security",
+            "risk_level": "CRITICAL",
+            "details": [
+              "Failed Mandatory Rule RULE_COMPLIANCE_01.",
+              "No public SOC 2 Type II independent CPA audit letter identified.",
+              "Data protection and access management governance not independently validated."
+            ]
+          },
+          "safety": {
+            "status": "PASS",
+            "score": 93,
+            "summary": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified.",
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Shopify",
+            "risk_level": "LOW",
+            "details": [
+              "Zero high-severity CVSS (>9.0) remote code execution vulnerabilities active.",
+              "Continuous automated dependency scanning and penetration testing verified.",
+              "TLS 1.3 enforced in-transit; AES-256 encrypted at-rest."
+            ]
+          }
+        },
+        "rule_evaluations": [
+          {
+            "rule_id": "RULE_LEGAL_01",
+            "title": "Clean Regulatory & Sanction Status",
+            "category": "legal",
+            "description": "Company must not be subject to active international trade sanctions, fraud indictments, or prohibitive antitrust bans.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://dockets.justia.com/search?q=Shopify",
+            "notes": "Clean legal record: Zero active trade sanctions, fraud indictments, or federal regulatory injunctions identified."
+          },
+          {
+            "rule_id": "RULE_COMPLIANCE_01",
+            "title": "Enterprise Security Certification",
+            "category": "compliance",
+            "description": "Must maintain verified SOC 2 Type II or ISO 27001 certification and GDPR/CCPA data privacy compliance posture.",
+            "passed": false,
+            "critical": true,
+            "evidence_ref": "https://shopify.com/security",
+            "notes": "Mandatory compliance failure: Missing verified SOC 2 Type II or ISO 27001 independent audit certification."
+          },
+          {
+            "rule_id": "RULE_FINANCIAL_01",
+            "title": "Financial Viability & Solvency",
+            "category": "financial",
+            "description": "Company must demonstrate verifiable institutional solvency (Series A+, Public, or Profitable) with verified capital runway.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://sec.gov/edgar/searchedgar/companysearch",
+            "notes": "Verified institutional capitalization (Institutional Growth Stage) with proven solvency and operational backing."
+          },
+          {
+            "rule_id": "RULE_SAFETY_01",
+            "title": "Information Security & Breach Posture",
+            "category": "safety",
+            "description": "Zero unmitigated critical zero-day exploits, active ransomware incidents, or major customer data breach events.",
+            "passed": true,
+            "critical": true,
+            "evidence_ref": "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=Shopify",
+            "notes": "Zero unresolved critical security breaches, ransomware incidents, or unmitigated CVE vulnerabilities identified."
+          }
+        ],
+        "mandatory_rules_passed": 3,
+        "mandatory_rules_total": 4
+      },
+      "fit_scores": {
+        "company_id": "comp_shopify",
+        "company_name": "Shopify",
+        "weights_applied": {
+          "strategic": 35.0,
+          "technical": 40.0,
+          "market": 25.0
+        },
+        "weighted_fit_score": 86.2,
+        "partnership_tier": "DISQUALIFIED (Risk Gate Failed)",
+        "recommendation_level": "DO NOT PROCEED",
+        "recommendation_badge": "FAIL_DISQUALIFIED",
+        "risk_gating_status": "FAIL",
+        "dimensions": {
+          "strategic": {
+            "score": 92.0,
+            "weight_percent": 35.0,
+            "contribution": 32.2,
+            "submetrics": {
+              "objective_alignment": 96,
+              "ecosystem_synergy": 93,
+              "co_selling_potential": 92,
+              "partner_commitment": 87
+            },
+            "key_strengths": [
+              "High synergy with cloud & enterprise workflows",
+              "Demonstrated go-to-market co-selling and mutual customer reach",
+              "Scalable partner commitment and ecosystem architecture"
+            ]
+          },
+          "technical": {
+            "score": 85.5,
+            "weight_percent": 40.0,
+            "contribution": 34.2,
+            "submetrics": {
+              "api_maturity": 87,
+              "architectural_harmony": 86,
+              "integration_velocity": 85,
+              "developer_ecosystem": 84
+            },
+            "key_strengths": [
+              "Modern programmatic APIs (RESTful JSON API, Webhooks)",
+              "Multi-language SDK coverage (Python, JavaScript / TypeScript, Go)",
+              "High availability multi-region cloud deployment"
+            ]
+          },
+          "market": {
+            "score": 79.2,
+            "weight_percent": 25.0,
+            "contribution": 19.8,
+            "submetrics": {
+              "market_momentum": 82,
+              "brand_reputation": 78,
+              "customer_sentiment": 76,
+              "competitive_defensibility": 81
+            },
+            "key_strengths": [
+              "Established brand equity and executive market trust",
+              "Proven commercial momentum and capital stability",
+              "High user ratings and verified peer review sentiment"
+            ]
+          }
+        }
+      },
+      "updated_at": "2026-10-26T14:05:59.223460",
+      "id": "comp_shopify",
+      "created_at": "2026-10-26T14:05:59.223460"
+    }
+  },
+  "matrices": {},
+  "audit_logs": {
+    "log_1793022134410": {
+      "id": "log_1793022134410",
+      "action": "COMPANY_ANALYZED",
+      "details": {
+        "company_id": "comp_cloudflare",
+        "company_name": "Cloudflare",
+        "gating_status": "PASS",
+        "fit_score": 86.4
+      },
+      "timestamp": "2026-10-26T13:42:14.410586",
+      "updated_at": "2026-10-26T13:42:14.410586",
+      "created_at": "2026-10-26T13:42:14.410586"
+    },
+    "log_1793023559273": {
+      "id": "log_1793023559273",
+      "action": "COMPANY_ANALYZED",
+      "details": {
+        "company_id": "comp_shopify",
+        "company_name": "Shopify",
+        "gating_status": "FAIL",
+        "fit_score": 86.2
+      },
+      "timestamp": "2026-10-26T14:05:59.273374",
+      "updated_at": "2026-10-26T14:05:59.273374",
+      "created_at": "2026-10-26T14:05:59.273374"
+    }
+  }
+}
