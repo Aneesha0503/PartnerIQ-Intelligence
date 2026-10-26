@@ -1,7 +1,7 @@
 import re
 import logging
 from typing import Dict, Any, List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 
 logger = logging.getLogger("PartnerIQ.RiskEngine")
 
@@ -127,7 +127,7 @@ class RiskValidationEngine:
         return {
             "company_id": company_profile.get("id"),
             "company_name": company_name,
-            "evaluated_at": datetime.utcnow().isoformat(),
+            "evaluated_at": datetime.now(timezone.utc).isoformat(),
             "gating_status": gating_status,
             "qualification_status": qualification_status,
             "composite_risk_score": composite_risk_score,

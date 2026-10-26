@@ -3,7 +3,7 @@ import uuid
 import httpx
 import asyncio
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
@@ -123,7 +123,7 @@ class DiscoveryEngine:
                 "category": "primary_source",
                 "snippet": primary_snippet[:400],
                 "confidence": 0.98,
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             })
 
         # 2. Direct Crawl of Security / Trust Page
@@ -139,7 +139,7 @@ class DiscoveryEngine:
                 "category": "compliance",
                 "snippet": sec_snippet[:400],
                 "confidence": 0.99,
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             })
 
         # 3. Dynamic Search: Technology Footprint, Compliance & Financials (Combined Query)
@@ -154,7 +154,7 @@ class DiscoveryEngine:
                 "category": "tech_stack",
                 "snippet": hit["snippet"][:350],
                 "confidence": 0.94,
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             })
 
         # 4. Dynamic Search: Legal, Sanctions, Regulatory Inquiries & Security Breaches
@@ -169,7 +169,7 @@ class DiscoveryEngine:
                 "category": "risk_audit",
                 "snippet": hit["snippet"][:350],
                 "confidence": 0.89,
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             })
 
         # Fallback evidence if search engine is throttled
@@ -181,7 +181,7 @@ class DiscoveryEngine:
                 "category": "primary_source",
                 "snippet": f"Verified corporate presence for {clean_name} at {resolved_domain}.",
                 "confidence": 0.90,
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             })
 
         return {
@@ -190,6 +190,6 @@ class DiscoveryEngine:
             "industry": industry or "Technology & Enterprise Software",
             "raw_snippets": raw_web_snippets,
             "evidence_sources": evidence_items,
-            "collected_at": datetime.utcnow().isoformat(),
+            "collected_at": datetime.now(timezone.utc).isoformat(),
             "sources_count": len(evidence_items)
         }

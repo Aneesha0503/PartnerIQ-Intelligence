@@ -82,7 +82,8 @@ class ExtractionEngine:
         # B. Dynamically Extract Founders
         founders = None
         founder_patterns = [
-            r'(?:founded\s+by|co-founded\s+by|founders?:?)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+(?:\s*(?:and|&|,)\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)*)',
+            r'(?:founded|co-founded)(?:\s+in\s+\d{4})?\s+by\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+(?:\s*(?:and|&|,)\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)*)',
+            r'(?:founders?:?)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+(?:\s*(?:and|&|,)\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)*)',
             r'([A-Z][a-z]+\s+[A-Z][a-z]+)\s+(?:founded|co-founded)\s+' + re.escape(name),
             r'(?:CEO\s+(?:and|&)\s+Founder|Founder\s+(?:and|&)\s+CEO)\s+([A-Z][a-z]+\s+[A-Z][a-z]+)'
         ]
@@ -133,16 +134,24 @@ class ExtractionEngine:
 
         # F. Dynamically Extract Revenue / Financial Scale
         revenue = None
-        rev_match = re.search(r'(\$\d+[\d\.]*\s*(?:billion|million|B|M|k)\s*(?:ARR|annual revenue|revenue|gross revenue|volume)?)', combined_text, re.IGNORECASE)
-        if rev_match:
-            revenue = rev_match.group(1).strip()
+        # Check explicit ARR / revenue patterns first to avoid picking funding round amounts
+        rev_explicit = re.search(r'(?:estimated\s+)?(\$\d+[\d\.]*\s*(?:billion|million|B|M|k)?\s*(?:ARR|annual revenue|revenue|gross revenue|volume|run rate))', combined_text, re.IGNORECASE)
+        if not rev_explicit:
+            rev_explicit = re.search(r'(?:revenue|ARR|run rate|sales)\s+(?:of\s+|is\s+|estimated\s+(?:at\s+)?|approx\.?\s*)?(\$\d+[\d\.]*\s*(?:billion|million|B|M|k)?)', combined_text, re.IGNORECASE)
+
+        if rev_explicit:
+            revenue = rev_explicit.group(1).strip()
         else:
-            if "Public" in funding_stage:
-                revenue = "$1.0B+ Annual Revenue"
-            elif "Series" in funding_stage:
-                revenue = "$50M - $150M ARR"
+            rev_match = re.search(r'(\$\d+[\d\.]*\s*(?:billion|million|B|M|k))', combined_text, re.IGNORECASE)
+            if rev_match:
+                revenue = rev_match.group(1).strip()
             else:
-                revenue = "Commercial Enterprise Scale"
+                if "Public" in funding_stage:
+                    revenue = "$1.0B+ Annual Revenue"
+                elif "Series" in funding_stage:
+                    revenue = "$50M - $150M ARR"
+                else:
+                    revenue = "Commercial Enterprise Scale"
 
         # G. Dynamically Extract Employee Rating / Sentiment
         employee_rating = None

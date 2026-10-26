@@ -1,6 +1,6 @@
 import logging
 from typing import List, Dict, Any, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from modules.fit_scorer import PartnershipFitScorer
 
 logger = logging.getLogger("PartnerIQ.DecisionMatrix")
@@ -100,7 +100,7 @@ class ExecutiveDecisionMatrix:
         market_leader = max(compared_items, key=lambda x: x["market_score"]) if compared_items else None
 
         return {
-            "matrix_timestamp": datetime.utcnow().isoformat(),
+            "matrix_timestamp": datetime.now(timezone.utc).isoformat(),
             "weights_applied": custom_weights or PartnershipFitScorer._normalize_weights({}),
             "total_candidates": len(compared_items),
             "candidates": compared_items,
