@@ -139,18 +139,8 @@ export default function App() {
 
       {/* Apple-Style Minimalist Footer */}
       <footer className="border-t border-white/[0.08] bg-black py-8 text-xs text-[#86868b]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            Copyright © 2026 PartnerIQ Inc. All rights reserved.
-          </div>
-          <div className="flex items-center gap-6 text-[#6e6e73]">
-            <span className="hover:text-[#a1a1a6] cursor-pointer">Privacy Policy</span>
-            <span className="hover:text-[#a1a1a6] cursor-pointer">Terms of Due Diligence</span>
-            <span className="hover:text-[#a1a1a6] cursor-pointer">Security Certifications</span>
-            <span className="text-[#30d158] flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#30d158]" /> Operational
-            </span>
-          </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+          Copyright © 2026 PartnerIQ Inc. All rights reserved.
         </div>
       </footer>
 
