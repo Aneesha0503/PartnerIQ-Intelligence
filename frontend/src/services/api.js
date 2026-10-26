@@ -60,6 +60,21 @@ export const api = {
     return res.json();
   },
 
+  // Module 3: Dynamic Risk Rules & Overrides
+  evaluateRiskRules: async (companyId, ruleOverrides = null, customRules = null) => {
+    const res = await fetch(`${API_BASE}/risk-engine/evaluate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        company_id: companyId,
+        rule_overrides: ruleOverrides || undefined,
+        custom_rules: customRules || undefined,
+      }),
+    });
+    if (!res.ok) throw new Error('Risk evaluation failed');
+    return res.json();
+  },
+
   // Module 4: Fit Scorer Recalculation
   recalculateFit: async (companyId, weights) => {
     const res = await fetch(`${API_BASE}/fit-scorer/recalculate`, {

@@ -244,3 +244,36 @@ def test_database_adapter_status():
     assert "mode" in status
     assert "collections" in status
     assert status["collections"]["companies"] >= 1
+
+
+def test_module3_dynamic_rule_overrides_and_simulation():
+    """Verify Module 3 dynamically supports runtime rule overrides and custom policies"""
+    clean_profile = {
+        "id": "comp_clean",
+        "name": "Clean Corp",
+        "funding_stage": "Public Entity (NASDAQ: CLN)",
+        "tech_stack": {"security_features": ["SOC 2 Type II", "ISO 27001"]},
+        "evidence_sources": [
+            {
+                "id": "ev_01",
+                "source_url": "https://cleancorp.com/security",
+                "category": "compliance",
+                "snippet": "SOC 2 Type II and ISO 27001 certified. Clean regulatory record."
+            }
+        ]
+    }
+    
+    # 1. Baseline: Should PASS
+    baseline_eval = RiskValidationEngine.evaluate_risks(clean_profile)
+    assert baseline_eval["gating_status"] == "PASS"
+    assert baseline_eval["qualification_status"] == "QUALIFIED"
+    
+    # 2. Dynamic Override: Simulate Legal Rule Failure
+    overridden_eval = RiskValidationEngine.evaluate_risks(
+        clean_profile,
+        rule_overrides={"RULE_LEGAL_01": False}
+    )
+    assert overridden_eval["gating_status"] == "FAIL"
+    assert overridden_eval["qualification_status"] == "DISQUALIFIED"
+    assert "Clean Regulatory & Sanction Status" in overridden_eval["gate_verdict_message"]
+    assert overridden_eval["has_policy_overrides"] is True

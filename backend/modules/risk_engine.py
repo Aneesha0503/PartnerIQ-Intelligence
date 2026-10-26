@@ -44,7 +44,12 @@ class RiskValidationEngine:
     ]
 
     @classmethod
-    def evaluate_risks(cls, company_profile: Dict[str, Any]) -> Dict[str, Any]:
+    def evaluate_risks(
+        cls, 
+        company_profile: Dict[str, Any],
+        custom_rules: Optional[List[Dict[str, Any]]] = None,
+        rule_overrides: Optional[Dict[str, bool]] = None
+    ) -> Dict[str, Any]:
         """
         Dynamically evaluate all 4 risk pillars and apply mandatory gating rules.
         """
@@ -81,19 +86,43 @@ class RiskValidationEngine:
             "safety": safety_eval
         }
 
+        # Combine default mandatory rules with any dynamic runtime rules
+        active_rules = list(cls.MANDATORY_RULES)
+        if custom_rules:
+            active_rules.extend(custom_rules)
+
+        rule_overrides = rule_overrides or {}
+
         # Apply Mandatory Gating Rules
         rule_evaluations = []
         has_critical_failure = False
         failed_rules = []
 
-        for rule in cls.MANDATORY_RULES:
+        for rule in active_rules:
             cat = rule["category"]
             pillar_eval = pillars.get(cat, {})
-            passed = (pillar_eval.get("status") == "PASS")
+            
+            # Check if this rule is dynamically overridden by executive policy
+            if rule["id"] in rule_overrides:
+                passed = bool(rule_overrides[rule["id"]])
+                is_overridden = True
+            else:
+                passed = (pillar_eval.get("status") == "PASS")
+                is_overridden = False
 
-            if not passed:
+            if rule.get("critical", True) and not passed:
                 has_critical_failure = True
                 failed_rules.append(rule["title"])
+
+            # Find matching evidence snippet
+            matching_ev = next((ev for ev in evidence_sources if ev.get("category") == cat or cat in str(ev.get("category", ""))), None)
+            if not matching_ev and evidence_sources:
+                matching_ev = evidence_sources[0]
+
+            rule_notes = pillar_eval.get("summary", "Audited against dynamic enterprise evidence.")
+            if is_overridden:
+                override_text = "PASS" if passed else "FAIL"
+                rule_notes = f"[Policy Override: {override_text}] {rule_notes}"
 
             rule_evaluations.append({
                 "rule_id": rule["id"],
@@ -101,24 +130,32 @@ class RiskValidationEngine:
                 "category": cat,
                 "description": rule["description"],
                 "passed": passed,
-                "critical": rule["critical"],
+                "critical": rule.get("critical", True),
+                "is_overridden": is_overridden,
                 "evidence_ref": pillar_eval.get("evidence_ref"),
-                "notes": pillar_eval.get("summary")
+                "evidence_snippet": matching_ev.get("snippet") if matching_ev else None,
+                "evidence_confidence": matching_ev.get("confidence", 0.95) if matching_ev else 0.95,
+                "evidence_url": matching_ev.get("source_url") if matching_ev else pillar_eval.get("evidence_ref"),
+                "score": pillar_eval.get("score", 90),
+                "risk_level": pillar_eval.get("risk_level", "LOW"),
+                "notes": rule_notes
             })
 
         # Calculate Overall Risk Safety Index (0 to 100, where 100 is safest)
         pillar_scores = [p["score"] for p in pillars.values()]
-        composite_risk_score = round(sum(pillar_scores) / len(pillar_scores), 1)
+        passed_ratio = len([r for r in rule_evaluations if r["passed"]]) / max(1, len(rule_evaluations))
+        raw_avg = sum(pillar_scores) / max(1, len(pillar_scores))
+        composite_risk_score = round(raw_avg * passed_ratio, 1)
 
         # Determine Gating Verdict
         if has_critical_failure:
             gating_status = "FAIL"
             qualification_status = "DISQUALIFIED"
             gate_verdict_message = f"Gating FAILED: Violates mandatory requirement(s): {', '.join(failed_rules)}. Partnership blocked."
-        elif composite_risk_score < 70:
+        elif composite_risk_score < 70 or passed_ratio < 1.0:
             gating_status = "CONDITIONAL_PASS"
             qualification_status = "CONDITIONAL"
-            gate_verdict_message = "Conditional Pass: Meets mandatory baseline but contains elevated risk alerts requiring executive mitigation."
+            gate_verdict_message = "Conditional Pass: Baseline criteria met with advisory risk alerts or policy deviations requiring executive mitigation."
         else:
             gating_status = "PASS"
             qualification_status = "QUALIFIED"
@@ -134,8 +171,9 @@ class RiskValidationEngine:
             "gate_verdict_message": gate_verdict_message,
             "pillars": pillars,
             "rule_evaluations": rule_evaluations,
-            "mandatory_rules_passed": len([r for r in rule_evaluations if r["passed"]]),
-            "mandatory_rules_total": len(rule_evaluations)
+            "mandatory_rules_passed": len([r for r in rule_evaluations if r["passed"] and r.get("critical", True)]),
+            "mandatory_rules_total": len([r for r in rule_evaluations if r.get("critical", True)]),
+            "has_policy_overrides": bool(rule_overrides)
         }
 
     @classmethod

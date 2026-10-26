@@ -76,6 +76,11 @@ class MatrixRequest(BaseModel):
     company_ids: Optional[List[str]] = None
     weights: Optional[Dict[str, float]] = None
 
+class EvaluateRulesRequest(BaseModel):
+    company_id: str
+    rule_overrides: Optional[Dict[str, bool]] = None
+    custom_rules: Optional[List[Dict[str, Any]]] = None
+
 
 # Endpoints
 
@@ -216,6 +221,39 @@ def delete_company(company_id: str):
     if not success:
         raise HTTPException(status_code=404, detail="Company not found.")
     return {"status": "success", "deleted_id": company_id}
+
+@app.post("/api/risk-engine/evaluate")
+def evaluate_risk_rules(req: EvaluateRulesRequest):
+    """Module 3: Dynamically re-evaluate mandatory gating rules with live overrides and custom policies"""
+    company = DatabaseAdapter.get_company(req.company_id)
+    if not company:
+        raise HTTPException(status_code=404, detail="Company not found.")
+    
+    evaluation = DatabaseAdapter.get_evaluation(req.company_id) or {}
+    updated_risk = RiskValidationEngine.evaluate_risks(
+        company_profile=company,
+        custom_rules=req.custom_rules,
+        rule_overrides=req.rule_overrides
+    )
+    
+    # Recalculate fit scores dynamically because gating qualification affects fit score & recommendation
+    existing_weights = evaluation.get("fit_scores", {}).get("weights_applied")
+    updated_fit = PartnershipFitScorer.compute_scores(
+        company_profile=company,
+        risk_evaluation=updated_risk,
+        custom_weights=existing_weights
+    )
+    
+    evaluation["risk_evaluation"] = updated_risk
+    evaluation["fit_scores"] = updated_fit
+    DatabaseAdapter.save_evaluation(req.company_id, evaluation)
+    
+    return {
+        "status": "success",
+        "company_id": req.company_id,
+        "risk_evaluation": updated_risk,
+        "fit_scores": updated_fit
+    }
 
 @app.post("/api/fit-scorer/recalculate")
 def recalculate_fit(req: RecalculateFitRequest):
